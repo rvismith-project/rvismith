@@ -5,11 +5,11 @@ RVISmith is a randomized fuzzer that generate well-defined C programs containing
 ## Usage
 
 Source code of RVISmith is not public now. We provide pre-built binaries:
-- rvismith: soft link to rvismith-explicit
-- rvismith-explicit: target to explicit (non-overloaded) intrinsics, see Appendix A in Specification
-- rvismith-explicit-policy: target to explicit (non-overloaded) intrinsics policy variants, see Appendix B in Specification
-- rvismith-implicit: target to implicit (overloaded) intrinsics, see Appendix C in Specification
-- rvismith-implicit-policy: target to implicit (overloaded) intrinsics policy variants, see Appendix D in Specification
+- `rvismith`: soft link to `rvismith-explicit`
+- `rvismith-explicit`: target to explicit (non-overloaded) intrinsics, see [Appendix A](https://github.com/riscv-non-isa/rvv-intrinsic-doc/tree/main/auto-generated/intrinsic_funcs) in the document
+- `rvismith-explicit-policy`: target to explicit (non-overloaded) intrinsics policy variants, see [Appendix B](https://github.com/riscv-non-isa/rvv-intrinsic-doc/tree/main/auto-generated/policy_funcs/intrinsic_funcs) in the document
+- `rvismith-implicit`: target to implicit (overloaded) intrinsics, see [Appendix C](https://github.com/riscv-non-isa/rvv-intrinsic-doc/tree/main/auto-generated/overloaded_intrinsic_funcs) in the document
+- `rvismith-implicit-policy`: target to implicit (overloaded) intrinsics policy variants, see [Appendix D](https://github.com/riscv-non-isa/rvv-intrinsic-doc/tree/main/auto-generated/policy_funcs/overloaded_intrinsic_funcs) in the document
 
 ```
 $ ./rvismith -h
